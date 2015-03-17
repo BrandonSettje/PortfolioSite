@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sp6BrandonSModelStoreContainer" CdmEntityContainer="sp6BrandonSEntities">
+    <EntitySetMapping Name="ContactForms">
+      <EntityTypeMapping TypeName="sp6BrandonSModel.ContactForm">
+        <MappingFragment StoreEntitySet="ContactForms">
+          <ScalarProperty Name="ContactFormID" ColumnName="ContactFormID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MessageContent" ColumnName="MessageContent" />
+          <ScalarProperty Name="DtCreated" ColumnName="DtCreated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

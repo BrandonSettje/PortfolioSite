@@ -57,14 +57,13 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-	
 }
 
 .navbar-brand {
     font-weight: 700;
 }
 .navbar-brand {
-  height: 30px;
+  height: 34px;
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
@@ -72,8 +71,8 @@ a:focus {
 
 .navbar-brand h1{
 	color: #FFC000;
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 40px;
 }
 
 .navbar-brand:focus {
@@ -81,7 +80,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color:rgba(0,0,0,.6);
+    background-color:rgba(0,0,0,.4);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -136,7 +135,7 @@ a:focus {
 }
 /* class call for margins*/
 hr {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 /* margins */
@@ -155,7 +154,7 @@ hr {
 	background: url(../Content/leadvillepic.jpg) no-repeat top center fixed;
 	background-size:cover;
     padding-top: 110px;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
 	display:block;
     position:relative;
     z-index:120;
@@ -172,8 +171,8 @@ hr {
 .home-sectioncontact {
 	background: url(../Content/octopicdark.jpg) no-repeat top center fixed;
 	background-size:cover;
-    padding-top: 120px;
-    padding-bottom: 200px;
+    padding-top: 110px;
+    padding-bottom: 120px;
 	display:block;
     position:relative;
     z-index:120;
@@ -182,6 +181,10 @@ hr {
 	font-size: 40px;
 }
 .section-heading i {
+	margin-bottom: 20px;
+	
+}
+.section-heading p {
 	margin-bottom: 20px;
 }
 
@@ -215,7 +218,6 @@ hr {
 
 .intro {
 	position:relative;
-	
 	background: url(../Content/Earthatnight161.jpg) no-repeat top center fixed;
 	background-size:cover;
 
@@ -271,13 +273,13 @@ hr {
 
 .boxed-grey {
 	background: rgba(0, 0, 0, .5);
-	padding: 20px;
-	
+	padding: 10px;
+	min-height:300px;
 }
 .boxed-black {
 	background: rgba(0, 0, 0, .7);
 	padding: 10px;
-	min-width: 50%;
+	min-height:580px;
 }
 .boxed-blackicons {
 	display:block;
@@ -311,42 +313,37 @@ hr {
 /* ===========================
 --- Contact
 ============================ */
-form#contact-form .form-group label {
-	text-align: left !important;
-	display: block;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 12px;
-}
-form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 0;
-	border: 1px solid #eee;
-  -webkit-box-shadow: none;
-          box-shadow:  none;
-}
 
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-}
 .input-group-addon {
   background-color: #fefefe;
   border: 1px solid #eee;
   border-radius: 0;
 }
-
-.widget-contact {
-	vertical-align: middle;
-	float: right ; 
-	text-align: center;
+.boxed-white {
+	background: rgba(255, 255, 255, .5);
+	padding: 10px;
+	color: #203020;
+	text-align:left;
+	padding-top: 10px;
+	min-height:500px;
 }
+.widget-contact h5 {
+	text-align: center;
+	color: #203020;
+}
+.widget-contact p {
+	text-align: center;
+	color: #203020;
+	min-height:400px;
+}
+
 /* ===========================
 --- Footer
 ============================ */
 
 footer {
 	text-align: center;
-	padding: 05 px 0 ;
+	padding: 05px 0 ;
 	
 }
 
@@ -546,12 +543,12 @@ footer p {
 	.boxed-grey {
 		margin-bottom: 20px;
 	}
-}
-@media (max-width:320px){
-
-.coding-player {
-  margin-bottom: 20px;
-}
+	.boxed-white {
+		margin-bottom: 40px;
+	}
+	.boxed-black {
+		margin-bottom: 20px;
+	}
 }
 @media (min-width: 321px) and (max-width:480px)  {
 	.navbar-custom .nav.navbar-nav {
@@ -575,8 +572,6 @@ footer p {
 		border-radius: 50%;
 		font-size: 20px;
 	}
-	.coding-player {
-  margin-bottom: 10px;
-}
+	
 
 }

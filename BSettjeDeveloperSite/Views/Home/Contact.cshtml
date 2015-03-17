@@ -1,17 +1,21 @@
-﻿@{
+﻿@*@model Contactform.Models.ContactForm
+@{
     ViewBag.Title = "Contact";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<form method="post" action="@Url.Action("Contact","Home")">
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" name="Name" required />
+    <br />
+    <label for="Email">Email</label>
+    <input type="email" id="Email" name="Email" required />
+    <br />
+    <label for="Body">Message</label>
+    <textarea id="body" name="MessageContent"></textarea>
+
+    <button type="submit">Submit </button>
+
+</form>*@
