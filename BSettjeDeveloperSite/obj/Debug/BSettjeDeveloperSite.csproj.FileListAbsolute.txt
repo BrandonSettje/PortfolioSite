@@ -160,6 +160,5 @@ C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\
 C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\obj\Debug\BSettjeDeveloperSite.csprojResolveAssemblyReference.cache
 C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\obj\Debug\BSettjeDeveloperSite.dll
 C:\Users\Brandon\Documents\PROGRAMMING STUFF\PortfolioSite\BSettjeDeveloperSite\obj\Debug\BSettjeDeveloperSite.pdb
